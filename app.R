@@ -10,7 +10,7 @@ ui <- dashboardPage(
         dashboardHeader(title = "Select StructuRes"),
         dashboardSidebar(),
         dashboardBody(
-          h1('Dashboard'),
+          h1('S'),
       		DTOutput('MetDbase.Table'),
         	fluidRow(
         	  column(
