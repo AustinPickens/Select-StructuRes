@@ -7,7 +7,7 @@ load('input.data.rda')
 
 #~~~ Build UI for the application ~~~#
 ui <- dashboardPage(
-        dashboardHeader(title = "dRaw Structures"),
+        dashboardHeader(title = "Select StructuRes"),
         dashboardSidebar(),
         dashboardBody(
           h1('Dashboard'),
